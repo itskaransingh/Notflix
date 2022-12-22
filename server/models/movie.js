@@ -1,7 +1,7 @@
-const mongoose = require('mongoose'); // Erase if already required
+const mongoose = require('mongoose'); 
 
-// Declare the Schema of the Mongo model
-var movieSchema = new mongoose.Schema({
+
+const movieSchema = new mongoose.Schema({
     title:{
         type:String,
         required:true,
